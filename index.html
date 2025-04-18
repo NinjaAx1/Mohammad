@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>احصل على نقطة</title>
+  <style>
+      *{
+          padding:0px;
+          margin:0px;
+      }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      background-color: #f5f5f5;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .points {
+      font-size: 22px;
+      margin-top: 30px;
+      color: green;
+    }
+    
+        @media screen and(max-width:600px){}
+    
+        @media screen and(max-width:601px)
+    and(max-width:800px){}
+    
+        @media screen and(max-width:801px)
+    and(max-width:1100px){}
+    
+    header{
+        background:#28a745;
+        color:white;
+    }
+     .v{
+         background:#28a745;
+         color:white;
+         border-radius:90px;
+         border:none;
+       
+     }
+     .b{
+         background:#28a745;
+         color:white;
+         border-radius:90px;
+         border:none;
+     }
+    .o{
+        background:#28a745;
+        color:white;
+        border-radius:90px;
+        border:none;
+    }
+    .Rob{
+        background:#28a745;
+        color:white;
+        border-radius:90px;
+        border:none;
+    }
+    .pu{
+        background:#28a745;
+        color:white;
+        border-radius:90px;
+        border:none;
+    }
+    .dis{
+        background:#28a745;
+        color:white;
+        border-radius:90px;
+        border:none;
+    }
+    .mo{
+        background:#28a745;
+        color:white;
+        border-radius:90px;
+        border:none;
+    }
+  </style>
+</head>
+<body>
+    <header>
+  <h3>اربح من خلال مشاهده الاعلان</h3>
+    </header>
+    <br>
+
+  <button id="adButton">شاهد إعلان واحصل على نقطة</button>
+  <div class="points" id="points">نقاطك: 0</div>
+  <br>
+  <div class="v">
+      <h3>
+          <h3>لدينا ↓</h3>
+          Roblox,<br>
+          pubg Mobile,<br>
+          discord,<br>
+          Money,<br>
+      </h3>
+  </div>
+  <br>
+
+    <h3 class="o">كيف تاخذ الي ربحته ؟</h3>
+    <br>
+<div class="b">
+    من خلال مراسلتنا على بريد الالكتروني اوقروبنا على ماسنجر     
+</div>
+<br>
+<a href="https://m.me/cm/AbaQZIsNdsCYLAXq/?send_source=cm%3Acopy_invite_link">الماسنجر</a>
+<br>
+<a href="mailto: mohammeddeea1234@gmail.com">الايميل</a>
+<br>
+<br>
+<div class="Rob">
+    قسم روبلوكس 
+    <br>
+    40R = 90 Ad
+    <br>
+    80R = 115 Ad 
+    <br>
+    400R = 466 Ad 
+    
+</div>
+<br>
+<br>
+<div class="pu">
+قسم  بوبجي موبايل 
+<br>
+30Us = 95 Ad
+<br>
+60Us = 120 Ad
+<br>
+120Us = 390 Ad
+</div>
+<br>
+<div class="dis">
+    قسم ديسكورد 
+    <br>
+    Nitro besic 1m = 77 Ad
+    <br>
+    Nitro geming 1m = 110 Ad
+</div>
+<br>
+<div class="mo">
+    قسم المال 
+    <br>
+    1$ = 300 Ad
+    <br>
+    2$ = 650 Ad
+    <br>
+    5$ = 1200 Ad
+    <p>تحويل عن بطاقه فقط </p>
+</div>
+<br>
+جميع الحقوق محفوضة لدى
+<br>
+RoboxMan&copy;
+
+
+<script>
+  let points = localStorage.getItem('userPoints') || 0;
+  document.getElementById('points').innerText = "نقاطك: " + points;
+
+  document.getElementById('adButton').addEventListener('click', function () {
+    // افتح رابط الإعلان في نافذة جديدة
+    window.open("https://www.profitableratecpm.com/pe0gce2n9?key=5a799ddc3af3ac2266518f906ba41dc7", "_blank");
+
+    // بعد 5 ثواني، نضيف نقطة
+    setTimeout(() => {
+      points = parseInt(points) + 2;
+      localStorage.setItem('userPoints', points);
+      document.getElementById('points').innerText = "نقاطك: " + points;
+      alert("تمت إضافة نقطة لحسابك!");
+    }, 5000);
+  });
+</script>
+<script type='text/javascript' src='//pl26406513.profitableratecpm.com/0f/73/94/0f73947aeeb4e7c94141620281598e9c.js'></script>
+</body>
+</html>
